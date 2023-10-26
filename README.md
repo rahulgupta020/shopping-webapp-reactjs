@@ -1,2 +1,2 @@
 # shopping-webapp-react
-This is shopping app. written in reactjs. and for state management used contextAPI.
+This is E-commerce shopping web-app. which is written in reactjs. and for state management used contextAPI.
