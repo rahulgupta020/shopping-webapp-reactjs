@@ -39,7 +39,7 @@ export default class Login extends Component {
     }
     render() {
         if(this.state.logged){
-            return <Redirect to='/'/>
+            return <Redirect to='/shopping-webapp-reactjs/'/>
         }
         return (
             <div>
