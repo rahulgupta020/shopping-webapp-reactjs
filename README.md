@@ -1,6 +1,39 @@
 # shopping-webapp-react
 This is E-commerce shopping web-app. which is written in reactjs. and for state management used contextAPI.
 
+Requirement:-
+1)  Make Users -
+Make two users who have different userid and password.
+Make User Login UI.
+
+2) Create Dashboard  UI-
+Create the dashboard UI which should have a dropdown box at upper right having different categories like - Clothes, Accessories, Grocery, Home & Kitchen Stuffs this four options.
+If we select any of the above categories then at least 6 items according to the categories will be rendered.
+All the items will be rendered in different cards.
+There should be an image, details, available quantity, price and two button ie Add to Cart, Buy Now in the card.
+
+3) Add to Cart and Buy Now -
+By clicking Add to cart the thing should be added in the cart of that user.
+By clicking Buy Now it will direct to the payment page where you have to pay the particular amount from the personal wallet of that user.
+
+4) Make a personal wallet
+Make a personal wallet of that user with having starting initial amount Rs. 10000/-
+If a user buys anything then deduct the same amount from the wallet.
+
+5) Add to cart UI
+The item added to cart also will be a card having all the details and two buttons … Buy Now and Delete.
+
+6) Trickey
+All the items will be in a limited number (you can assume 15 pieces of each item) in the dashboard.
+You have to continuously update the dashboard After buying any item.
+Make a component for updating the amount of wallet of a particular user.
+
+7) Add On
+Make an admin login. In admin dashboard -
+Make a component for updating the pieces available of any item in the dashboard.
+(You can use Navbar to Dashboard, My card ,My wallet etc.)
+
+
 If you want to run this project. Simple clone it. and run Command "npm install". after it it will install node_modules folder. now can you can run this project using "npm start".
 
 screen:
