@@ -10,6 +10,7 @@ import Page from './Components/Page'
 import Login from './Components/Login'
 import Logout from './Components/Logout'
 import Buynow from './Components/Buynow'
+import Navbar from './Components/Navbar';
 import Protected from './Protected'
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <ProductsContextProvider>
     <CartContextProvider>
     <BrowserRouter>
-    {/* <Navbar/> */}
+    <Navbar/>
     <Switch>
     <Route path="/" exact component={Products}/>
     <Protected path="/cart" exact component={Cart}/>
