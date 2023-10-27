@@ -6,7 +6,7 @@ const Logout=()=>{
     return(
         <div>
         <Navbar/>
-        <Redirect to='/'/>
+        <Redirect to='/shopping-webapp-reactjs/'/>
         </div>
     ) 
 }
