@@ -1,7 +1,8 @@
 # shopping-webapp-react
-This is E-commerce shopping web-app. which is written in reactjs. and for state management used contextAPI.
+Project Description:-
+React Shopping Web App leverages the power of React.js and Context API to create a seamless shopping experience. Users can explore a variety of categories, including clothing, groceries, kitchen items, and accessories. To make a purchase or proceed to the checkout, users must log in with predefined credentials.    Every user starts with a wallet balance of 10,000 units, which decreases as they make purchases. This project offers a user-friendly and secure platform for online shopping, demonstrating the practical application of state management and user authentication in a modern web app.
 
-Requirement:-
+Project Requirement:-
 1)  Make Users -
 Make two users who have different userid and password.
 Make User Login UI.
