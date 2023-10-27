@@ -18,14 +18,14 @@ function App() {
     <div >
     <ProductsContextProvider>
     <CartContextProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/shopping-webapp-reactjs">
     <Navbar/>
     <Switch>
-    <Route path="/shopping-webapp-reactjs/" exact component={Products}/>
-    <Protected path="shopping-webapp-reactjs/cart" exact component={Cart}/>
-    <Route path="/shopping-webapp-reactjs/login" exact component={Login}/>
-    <Route path="/shopping-webapp-reactjs/logout" exact component={Logout}/>
-    <Protected path="/shopping-webapp-reactjs/buynow" exact component={Buynow}/>
+    <Route path="/" exact component={Products}/>
+    <Protected path="/cart" exact component={Cart}/>
+    <Route path="/login" exact component={Login}/>
+    <Route path="/logout" exact component={Logout}/>
+    <Protected path="/buynow" exact component={Buynow}/>
     <Route component={Page}/>
     </Switch>
     </BrowserRouter>
